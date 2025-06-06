@@ -11,8 +11,8 @@
             font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
-            /* Cor de fundo mais suave */
-            background-color: #f8f8f8;
+            /* Mantém a cor de fundo original para o body, se desejar */
+            background-color: #f8f8f8; /* Ou qualquer outra cor neutra para o fundo geral do site */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,8 +20,8 @@
         }
 
         .container {
-            /* Background com imagem */
-            background-image: url(backgroundluz.jpg);
+            /* Background com imagem removido para que a background-color funcione */
+            /* background-image: url(backgroundluz.jpg); */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -38,6 +38,7 @@
             flex-direction: column;
             align-items: stretch;
             box-sizing: border-box;
+            background-color: #E0D8D0; /* COR DE FUNDO DO CONTAINER AGORA MAIS ESCURA */
         }
 
         .profile-picture {
@@ -309,7 +310,7 @@
         <h1 class="nome-dp">Luz Pratas</h1>
         <p class="frase-destaque">Enviamos Luz em forma de joias.</p>
         <div class="links-container">
-            <a href="https://wa.me/5511985842013" class="link-button">
+            <a href="https://wa.me/5511985842013?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20de%20prata%20dispon%C3%ADveis." class="link-button">
                 <i class="fab fa-whatsapp"></i> WhatsApp
             </a>
             <a href="sobrenos.html" class="link-button" rel="noopener noreferrer">
